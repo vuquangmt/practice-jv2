@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="PracticeExam.HomeController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#addStudent" layoutX="59.0" layoutY="79.0" mnemonicParsing="false" text="Add student records">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#displayStudent" layoutX="315.0" layoutY="79.0" mnemonicParsing="false" text="Display student records">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#Save" layoutX="128.0" layoutY="232.0" mnemonicParsing="false" text="Save">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button onAction="#Exit" layoutX="407.0" layoutY="232.0" mnemonicParsing="false" text="Exit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

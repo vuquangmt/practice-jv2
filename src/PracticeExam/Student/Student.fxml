@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="PracticeExam.Student.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="StudentID" layoutX="226.0" layoutY="52.0" promptText="Mã số sinh viên" />
+      <TextField fx:id="Name" layoutX="226.0" layoutY="109.0" promptText="Họ và Tên" />
+      <TextField fx:id="Phone" layoutX="226.0" layoutY="175.0" promptText="Số điện thoại" />
+      <TextField fx:id="Address" layoutX="226.0" layoutY="235.0" promptText="Địa chỉ" />
+      <Button layoutX="323.0" layoutY="294.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</Pane>
